@@ -109,11 +109,7 @@ h2 {
 .header-nav__item {
   list-style: none;
   margin-right: 60px;
-  font-family: TTHoves;
-  font-weight: 400;
-  font-size: 14px;
-  color: #333333;
-  text-transform: uppercase; }
+   }
   @media (max-width: 999px) {
     .header-nav__item {
       margin-bottom: 20px; } }
@@ -121,15 +117,16 @@ h2 {
     margin-right: 0; }
   .header-nav__item a {
     position: relative;
-    padding: 5px 0; }
-  .header-nav__item-link {
-    cursor: pointer;
+    padding: 5px 0;
     font-family: TTHoves;
     font-weight: 400;
     font-size: 22px;
     color: #333333;
     text-transform: uppercase;
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
     @media (max-width: 999px) {
       .header-nav__item-link {
         position: absolute;
