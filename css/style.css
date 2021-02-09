@@ -14,28 +14,28 @@
   src: url("../fonts/SFProDisplay-Black.woff2") format("woff2"), url("../fonts/SFProDisplay-Black.woff") format("woff"); }
 
 @font-face {
-  font-family: "TTHoves-Bold";
+  font-family: "TTHoves";
   font-size: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
   src: url("../fonts/TTHoves-Bold.woff2") format("woff2"), url("../fonts/TTHoves-Bold.woff") format("woff"); }
 
 @font-face {
-  font-family: "TTHoves-Light";
+  font-family: "TTHoves";
   font-size: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-display: swap;
   src: url("../fonts/TTHoves-Light.woff2") format("woff2"), url("../fonts/TTHoves-Light.woff") format("woff"); }
 
 @font-face {
-  font-family: "TTHoves-Medium";
+  font-family: "TTHoves";
   font-size: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
   src: url("../fonts/TTHoves-Medium.woff2") format("woff2"), url("../fonts/TTHoves-Medium.woff") format("woff"); }
 
 @font-face {
-  font-family: "TTHoves-Regular";
+  font-family: "TTHoves";
   font-size: normal;
   font-weight: 400;
   font-display: swap;
@@ -49,7 +49,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "TTHoves" -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "TTHoves", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5; }
 
 .no-scroll {
@@ -66,7 +66,7 @@ body {
   text-decoration: none;
   max-width: 222px;
   max-height: 71px;
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -212,7 +212,7 @@ h2 {
   .slider__title {
     margin: 0;
     padding: 0;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -229,7 +229,7 @@ h2 {
   .slider__subtitle {
     margin: 0;
     padding: 0;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -277,7 +277,7 @@ h2 {
 .num {
   display: flex; }
   .num__counter {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -369,7 +369,7 @@ h2 {
   padding: 0;
   width: 354px;
   height: 64px;
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
@@ -388,7 +388,7 @@ h2 {
   padding: 0;
   width: 400px;
   height: 200px;
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -444,7 +444,7 @@ h2 {
       .tasks__content {
         margin-top: 0px; } }
     .tasks__content-content {
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: normal;
       font-size: 22px;
@@ -486,7 +486,7 @@ h2 {
         padding-right: 0;
         line-height: 180px; } }
   .tasks__title {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -504,7 +504,7 @@ h2 {
     .projects {
       margin-top: 50px; } }
   .projects__title {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -535,7 +535,7 @@ h2 {
         margin-top: 40px;
         line-height: 30px; } }
     .projects__title-header {
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: 300;
       font-size: 64px;
@@ -557,7 +557,7 @@ h2 {
       .projects__content {
         margin-top: 50px; } }
     .projects__content-button {
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
@@ -600,7 +600,7 @@ h2 {
             display: block;
             max-width: 100%; } }
         .projects__content-img-block__title {
-          font-family: TT Hoves;
+          font-family: TTHoves;
           font-style: normal;
           font-weight: bold;
           font-size: 64px;
@@ -621,7 +621,7 @@ h2 {
           /* opacity: 1; */ }
   .projects__button {
     background: #333333;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -667,7 +667,7 @@ h2 {
     .contact {
       margin-top: 50px; } }
   .contact__title {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -719,7 +719,7 @@ h2 {
         margin-left: 50px; } }
     .footer__info-title {
       margin: 0 0 25px 0;
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -738,7 +738,7 @@ h2 {
         margin: 0; }
       .footer__info-item a {
         text-decoration: none;
-        font-family: TT Hoves;
+        font-family: TTHoves;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -771,7 +771,7 @@ h2 {
           height: 120px; } }
     .footer__contacts-title {
       margin: 0 0 25px 0;
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -782,7 +782,7 @@ h2 {
     .footer__contacts-adress {
       display: flex; }
     .footer__contacts-content {
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
@@ -796,7 +796,7 @@ h2 {
           margin-bottom: 16px; } }
       .footer__contacts-content a {
         text-decoration: none;
-        font-family: TT Hoves;
+        font-family: TTHoves;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -836,7 +836,7 @@ h2 {
           width: 120px; } }
     .footer__socials-title {
       margin: 0 0 25px 0;
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -908,7 +908,7 @@ h2 {
   align-items: center; }
 
 .modal__title {
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -917,7 +917,7 @@ h2 {
   color: #333333; }
 
 .modal__text {
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -934,7 +934,7 @@ h2 {
   padding: 0;
   margin: 0;
   color: #fff;
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -985,7 +985,7 @@ h2 {
   left: 0;
   right: 0;
   height: 80px;
-  font-family: TT Hoves;
+  font-family: TTHoves;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1045,7 +1045,7 @@ h2 {
   .card__content {
     margin-left: 30px; }
   .card__title {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
@@ -1061,7 +1061,7 @@ h2 {
         line-height: 30px; } }
   .card__text {
     max-width: 400px;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -1112,7 +1112,7 @@ h2 {
     margin: 0 auto;
     margin-top: 60px; }
   .contact-page__text {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-size: 18px;
     line-height: 22px;
@@ -1122,7 +1122,7 @@ h2 {
       font-weight: bold; }
     .contact-page__text a {
       text-decoration: none;
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-size: 18px;
       line-height: 22px;
@@ -1147,7 +1147,7 @@ h2 {
         margin-right: 35px; } }
   .contact-page__button {
     background: #333333;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1184,7 +1184,7 @@ h2 {
     .page__content-text {
       margin-left: 30px;
       margin-right: 30px;
-      font-family: TT Hoves;
+      font-family: TTHoves;
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
@@ -1248,7 +1248,7 @@ h2 {
     height: 46px;
     background-color: #f3f3f3;
     border: none;
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1264,7 +1264,7 @@ h2 {
       height: 135px;
       margin: 0; }
   .form__field-text {
-    font-family: TT Hoves;
+    font-family: TTHoves;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
